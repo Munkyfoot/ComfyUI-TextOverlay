@@ -16,6 +16,13 @@ Originally inspired by the [Text Overlay Plugin by mikkel](https://github.com/mi
 
 To use the TextOverlay node, ensure this repo is included in your ComfyUI `custom_nodes` directory.
 
+1. Find the `custom_nodes` directory in your ComfyUI installation.
+2. Clone this repository into the `custom_nodes` directory using the following command:
+
+```bash
+git clone https://github.com/Munkyfoot/ComfyUI-TextOverlay
+```
+
 ## Usage
 
 After installation, the TextOverlay node will be available in the ComfyUI interface under the `image/text` category. To use the node:
@@ -27,7 +34,7 @@ After installation, the TextOverlay node will be available in the ComfyUI interf
 
 ### Custom Fonts
 
-To use a custom font, ensure the font file is included in the `fonts` directory within the `custom_nodes` directory. Then, specify the font file name (e.g., `arial.ttf`) in the `font` parameter of the TextOverlay node. If using a system-installed font, you can specify the font name directly without the file path. If the font file is not found, the node will default to a system-installed font.
+To use a custom font, ensure the font file is included in the `fonts` directory within this directory. Then, specify the font file name (e.g., `arial.ttf`) in the `font` parameter of the TextOverlay node. If using a system-installed font, you can specify the font name directly without the file path. If the font file is not found, the node will default to a system-installed font.
 
 ## Input Parameters
 
