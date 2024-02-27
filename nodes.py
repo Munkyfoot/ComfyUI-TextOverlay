@@ -161,7 +161,7 @@ class TextOverlay:
                 self._loaded_font = ImageFont.truetype(font_path, font_size)
             except Exception as e:
                 print(f"Error loading font: {e}... Using default font")
-                self._loaded_font = ImageFont.load_default()
+                self._loaded_font = ImageFont.load_default(font_size)
 
         # Prepare to draw on the image
         draw = ImageDraw.Draw(image)
