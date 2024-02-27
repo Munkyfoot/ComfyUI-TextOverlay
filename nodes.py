@@ -51,7 +51,7 @@ class TextOverlay:
                 ),  # Font size
                 "font": (
                     "STRING",
-                    {"default": "arial.ttf"},
+                    {"default": "ariblk.ttf"},
                 ),  # Font name (e.g. arial.ttf)
                 "fill_color_hex": (
                     "STRING",
