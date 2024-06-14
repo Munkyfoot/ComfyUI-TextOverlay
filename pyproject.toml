@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-textoverlay"
+description = "This extension provides a node that allows you to overlay text on an image or a batch of images with support for custom fonts and styles."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Munkyfoot/ComfyUI-TextOverlay"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-TextOverlay"
+Icon = ""
