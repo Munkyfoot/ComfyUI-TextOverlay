@@ -9,6 +9,6 @@ Repository = "https://github.com/Munkyfoot/ComfyUI-TextOverlay"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "munkyfoot"
 DisplayName = "ComfyUI-TextOverlay"
 Icon = ""
